@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colormain:#3ab596;
+    --fontmainar:'Hacen Maghreb Lt Regular';
+    --fontmainen: "Cairo", sans-serif;
+}
+.container{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container .row{
+    display:flex;
+    height: 100vh;
+    gap: 30px;
+    position: relative;
+}
+.container .content-left{
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.container .content-left h1{
+    color:var(--fontmainen);
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--colormain);
+}
+.container .content-left .contact-tools{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+}
+.container .content-left .contact-tools .contact-tool{
+     width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px #dddbdb;
+    background-color: #fefefe;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;   
+}
+.container .content-left .contact-tools .contact-tool:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+   }
+.container .content-left .contact-tools .contact-tool a{
+    display: inline-block;
+    font-family: var(--fontmainen);
+    font-size: 20px;
+    color: #4c4c4c;
+    margin-top: 15px;
+}
+.container .content-left .contact-tools .contact-tool .facebook{
+    color: #3b5998;
+}
+.container .content-left .contact-tools .contact-tool .google{
+    color: #db4437;
+}
+.container .content-right .contact-tools .contact-tool .linkdin{
+    color: #0077b5;
+}
+.container .content-left p{
+    text-transform: capitalize;
+    font-family:var(--fontmainen);
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.container .content-right{
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.container .content-right h1{
+    color:var(--fontmainen);
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--colormain);
+}
+.container .content-right .contact-tools{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+}
+.container .content-right .contact-tools .contact-tool{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px #dddbdb;
+    background-color: #fefefe;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;   
+}
+.container .content-right .contact-tools .contact-tool:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.container .content-right .contact-tools .contact-tool a{
+    display: inline-block;
+    font-family: var(--fontmainen);
+    font-size: 20px;
+    color: #4c4c4c;
+    margin-top: 15px;
+}
+.container .content-right .contact-tools .contact-tool .facebook{
+    color: #3b5998;
+}
+.container .content-right .contact-tools .contact-tool .google{
+    color: #db4437;
+}
+.container .content-right .contact-tools .contact-tool .linkdin{
+    color: #0077b5;
+}
+.container .content-right p{
+    text-transform: capitalize;
+    font-family:var(--fontmainen);
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.container form{
+    width: 100%;
+    margin: 20px auto;
+}
+.container form .form-control {
+    color: #4c4c4c;
+    background-color: #f4f8f7;
+    border: none;
+    padding: 20px;
+    padding-left: 50px;
+}
+.container form .mb-3{
+    position: relative;
+}
+.container form .mb-3 .svg-inline--fa {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+}
+.container form .btn {
+    width: 200px;
+    background: var(--colormain);
+    padding: 10PX;
+    margin-top: 10px;
+    border-radius: 25PX;
+    -webkit-border-radius: 25PX;
+    -moz-border-radius: 25PX;
+    -ms-border-radius: 25PX;
+    -o-border-radius: 25PX;
+}
+.container form .btn  a{
+    font-size: 20px;
+}
+.container form a{
+    font-family:var(--fontmainen);
+    color: #4c4c4c;
+    text-decoration: none;
+    font-size: 15px;
+}
+.container .content-higher{
+    height: 95%;
+    width: 42vw;
+    background: var(--colormain);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    margin-top: 2vh;
+    color: #fff;
+    transition: 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:0;
+    z-index: 2;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+.container .content-higher #higher-text h1{
+    font-family:'Hacen Maghreb Lt Regular';
+    font-size: 50px;
+    margin-top: 75%;
+    margin-bottom: 30px;
+}
+.container .content-higher #higher-text p{
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family:'Hacen Maghreb Lt Regular';
+}
+.container .content-higher .btn {
+    width: 200px;
+    background: var(--colormain);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    border-radius: 25PX;
+    -webkit-border-radius: 25PX;
+    -moz-border-radius: 25PX;
+    -ms-border-radius: 25PX;
+    -o-border-radius: 25PX;
+}
+.container .content-higher .btn a,
+.container form .btn a{
+    font-family: 'Hacen Maghreb Lt Regular';
+    text-decoration: none;
+    color: #fff;
+} 
+
+
