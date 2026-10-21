@@ -182,15 +182,14 @@
     font-size: 15px;
 }
 .container .content-higher{
-    height: 95%;
-    width: 42vw;
+    width: 48vw;
     background: var(--colormain);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 1px;
     padding-bottom: 100px;
-    margin-top: 2vh;
+    margin-top: 12vh;
     color: #fff;
     transition: 1s ease-in-out;
     position: absolute;
